@@ -1,5 +1,5 @@
 ---
-title: "Tuyển dụng trợ giảng 2025 (Closed)"
+title: "Tuyển dụng trợ giảng 2025 (Đã Đóng)"
 date: 2018-11-18T12:33:46+10:00
 weight: 10
 ---
