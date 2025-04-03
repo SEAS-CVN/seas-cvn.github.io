@@ -44,6 +44,8 @@ SEAS (Summer in Engineering and Applied Sciences) là trường hè miễn phí 
 # Tuyển sinh từ 01/4 - 31/5/2025
 📌 Tiêu chí xét tuyển: Thành tích học tập, bài luận cá nhân, giải thưởng, thông tin của một giáo viên mà BTC có thể liên lạc để nắm rõ hơn về học sinh.
 
+Đơn ứng tuyển tham gia trại hè SEAS: [https://shorturl.at/wRoSn](https://shorturl.at/wRoSn)
+
 📅 Công bố kết quả: 10/6/2025.
 
 💰 Chi phí? Hoàn toàn miễn phí! (bao gồm ăn ở, đi lại, tài liệu, phần mềm).
