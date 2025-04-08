@@ -1,7 +1,7 @@
 ---
 title: SEAS
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Trường hè Kỹ thuật và Khoa học Ứng dụng Miền Trung (SEAS) là tổ chức phi lợi nhuận mang đến cơ hội học tập miễn phí cho học sinh trung học phổ thông. 
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
