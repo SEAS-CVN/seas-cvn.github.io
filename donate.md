@@ -16,7 +16,7 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
-| 08-04-2025 | MIT PKG Fellowship | 110,000,000 ₫ |
+| 08-04-2025 | MIT PKG Fellowship | Hỗ trợ tài chính cho học sinh MIT trong BTC |
 | 21-03-2025 | Nghiêm Vũ Nhật Anh (Stony Brook University) | 7,500,000 ₫ |
 | 19-03-2025 | Đoàn Thị Minh Phượng (Du học APUS) | 2,500,000 ₫ |
 | 18-03-2025 | Vương Tiến Thành Bakery | Tài trợ bữa sáng toàn bộ học viên SEAS |
