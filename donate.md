@@ -16,6 +16,7 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 19-04-2025 | Tấn Phát Sport | Toàn bộ áo quần, mũ, phù hiệu, ngoài ra còn hỗ trợ nước uống và hỗ trợ thêm trong chuyến đi Phong Nha |
 | 08-04-2025 | MIT PKG Fellowship | Hỗ trợ tài chính cho học sinh MIT trong BTC |
 | 21-03-2025 | Nghiêm Vũ Nhật Anh (Stony Brook University) | 7,500,000 ₫ |
 | 19-03-2025 | Đoàn Thị Minh Phượng (Du học APUS) | 2,500,000 ₫ |
