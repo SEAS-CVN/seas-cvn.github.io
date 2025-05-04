@@ -1,7 +1,7 @@
 ---
 title: "Nguyễn Thế Quỳnh"
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/Quynh-Nguyen.jpg"
+image: "images/team/Quynh-Nguyen.jpeg"
 jobtitle: "Sáng Lập & Ban Tổ Chức (Founder & Organizer)"
 promoted: true
 weight: 1

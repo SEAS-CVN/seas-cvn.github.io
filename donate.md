@@ -19,6 +19,7 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 | 24-04-2025 | Trung tâm ngoại ngữ CELALS - 35 Ngô Quyền Đồng Hới | Tài trợ khoá học tiếng anh 120h trong 2 tuần cho toàn bộ học sinh tham gia chương trình, trị giá 60.000.000 vnđ|
 | 19-04-2025 | Tấn Phát Sport | Toàn bộ áo quần, mũ, phù hiệu, ngoài ra còn hỗ trợ nước uống và hỗ trợ thêm trong chuyến đi Phong Nha |
 | 08-04-2025 | MIT PKG Fellowship | Hỗ trợ tài chính cho học sinh MIT trong BTC |
+| 30-03-2025 | Pham Viet Hung | 500,000 ₫ |
 | 21-03-2025 | Nghiêm Vũ Nhật Anh (Stony Brook University) | 7,500,000 ₫ |
 | 19-03-2025 | Đoàn Thị Minh Phượng (Du học APUS) | 2,500,000 ₫ |
 | 18-03-2025 | Vương Tiến Thành Bakery | Tài trợ bữa sáng toàn bộ học viên SEAS |
