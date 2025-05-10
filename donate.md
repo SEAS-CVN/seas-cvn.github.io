@@ -16,6 +16,7 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 08-05-2025 | Bùi Nguyễn Ánh Nhi | 5,000,000 ₫ |
 | 24-04-2025 | Trung tâm ngoại ngữ CELALS - 35 Ngô Quyền Đồng Hới | Tài trợ khoá học tiếng anh 120h trong 2 tuần cho toàn bộ học sinh tham gia chương trình, trị giá 60.000.000 vnđ|
 | 19-04-2025 | Tấn Phát Sport | Toàn bộ áo quần, mũ, phù hiệu, ngoài ra còn hỗ trợ nước uống và hỗ trợ thêm trong chuyến đi Phong Nha |
 | 08-04-2025 | MIT PKG Fellowship | Hỗ trợ tài chính cho học sinh MIT trong BTC |
