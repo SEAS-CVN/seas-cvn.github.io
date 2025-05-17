@@ -3,7 +3,7 @@ main:
     url: "/about/"
     weight: 2
   - name: "Chương Trình"
-    url: "/program/"
+    url: "/programs/"
     weight: 3
   - name: "Đội Ngũ"
     url: "/team/"
