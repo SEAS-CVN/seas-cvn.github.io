@@ -23,7 +23,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "program"
+      type: "programs"
     values:
       layout: "service"
   - scope:
