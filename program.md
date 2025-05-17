@@ -1,6 +1,6 @@
 ---
 title: Program
-layout: program
+layout: services
 description: Program
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
