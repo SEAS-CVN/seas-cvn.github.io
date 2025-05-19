@@ -32,7 +32,7 @@ bodyClass: "page-home"
             <h2 class="service-title">
               <a href="{{ program.url | relative_url }}">{{ program.title }}</a>
             </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ program.excerpt | markdownify | strip_html | truncate: 100 }}</p>
           </div>
         </div>
       </div>
