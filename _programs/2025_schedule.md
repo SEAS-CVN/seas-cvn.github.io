@@ -8,5 +8,5 @@ Thời khoá biểu và chi tiết khoá học mùa hè 2025 ở trong file Goog
 
 <iframe 
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS_Ud9jxkNYFD6GPk_jsFMHUYBGK-WYVUj6y9Ze_UK9uJKGuuEGQ3FAa0-tQT5Qxnr_XpHGSo6fd6jG/pubhtml?widget=true&amp;headers=false" 
-  style="width: 90vw; height: 90vh; border: 5px solid #589EC2; border-radius: 8px;"
+  style="width: 60vw; height: 90vh; border: 5px solid #589EC2; border-radius: 8px;"
 ></iframe>
