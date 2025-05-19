@@ -14,7 +14,7 @@ home:
   limit_programs: 6
 
 collections:
-  program:
+  programs:
     output: true
     sort_by: weight
   team:
