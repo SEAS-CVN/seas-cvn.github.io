@@ -16,6 +16,8 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 11-06-2025 | Nguyễn Thị Thu Trang | 5,000,000 ₫ |
+| 07-06-2025 | Hoàng Thị Mỹ Tú | 5,000,000 ₫ |
 | 17-05-2025 | Hội SV Việt Nam tại Science Tokyo| 4,500,000 ₫ |
 | 08-05-2025 | Bùi Nguyễn Ánh Nhi | 5,000,000 ₫ |
 | 24-04-2025 | Trung tâm ngoại ngữ CELALS - 35 Ngô Quyền Đồng Hới | Tài trợ khoá học tiếng anh 120h trong 2 tuần cho toàn bộ học sinh tham gia chương trình, trị giá 60.000.000 vnđ|
