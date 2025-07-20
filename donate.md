@@ -16,6 +16,8 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 13-07-2025 | Cấn Thành Trung | 10,000,000 ₫ |
+| 03-07-2025 | Nguyễn Như An | 3,000,000 ₫ |
 | 11-06-2025 | Nguyễn Thị Thu Trang | 5,000,000 ₫ |
 | 07-06-2025 | Hoàng Thị Mỹ Tú | 5,000,000 ₫ |
 | 17-05-2025 | Hội SV Việt Nam tại Science Tokyo| 4,500,000 ₫ |
