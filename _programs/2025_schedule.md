@@ -1,7 +1,7 @@
 ---
 title: "Thời khoá biểu 2025"
 date: 2018-11-18T12:33:46+10:00
-weight: 1
+weight: 2
 ---
 
 Thời khoá biểu và chi tiết khoá học mùa hè 2025 dưới đây (hoặc truy cập [đường link](https://docs.google.com/spreadsheets/d/10Gu7gnMYNpCZytfNseEYpgpg9r20BPSzPDEoonEzDDQ/edit?usp=sharing)):
