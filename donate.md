@@ -16,6 +16,8 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 25-07-2025 | UBND Tỉnh Quảng Trị | 10,000,000 ₫ |
+| 23-07-2025 | Mrs. Tuyết Lê | 10,000,000 ₫ |
 | 13-07-2025 | Cấn Thành Trung | 10,000,000 ₫ |
 | 03-07-2025 | Nguyễn Như An | 3,000,000 ₫ |
 | 11-06-2025 | Nguyễn Thị Thu Trang | 5,000,000 ₫ |
