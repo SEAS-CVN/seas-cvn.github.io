@@ -16,6 +16,7 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 
 | Ngày | Tên | Số Tiền hoặc Tài Trợ Vật Chất|
 |---------|---------|-----------------|
+| 25-07-2025 | Công Ty TNHH Tư Vấn KS-TK Hoành Sơn | 5,000,000 ₫ |
 | 25-07-2025 | UBND Tỉnh Quảng Trị | 10,000,000 ₫ |
 | 23-07-2025 | Mrs. Tuyết Lê | 10,000,000 ₫ |
 | 13-07-2025 | Cấn Thành Trung | 10,000,000 ₫ |

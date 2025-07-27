@@ -6,33 +6,18 @@ weight: 1
 
 Dưới đây là danh sách các dự án trong tuần 2:
 
-| Dự Đoán Lũ Lụt Miền Trung|
-|-----------------|
+* Dự Đoán Lũ Lụt Miền Trung
 
+* Phân loại cá trong thời gian thực
 
-| Phân loại cá trong thời gian thực|
-|-----------------|
+* Nhận đoán ẩm thực địa phương
 
+* Xử lý ngôn ngữ giọng miền trung
 
-| Nhận đoán ẩm thực địa phương|
-|-----------------|
+* Dùng un-supervised learning để xoá mưa khỏi ảnh (cho xe tự lái)
 
+* Trí tuệ nhân tạo cho ước lượng kênh trong hệ thống thông tin
 
-| Xử lý ngôn ngữ giọng miền trung|
-|-----------------|
+* Mạng nơ-ron cho vật lý nhiều hạt lượng tử
 
-
-| Dùng un-supervised learning để xoá mưa khỏi ảnh (cho xe tự lái)|
-|-----------------|
-
-
-| Trí tuệ nhân tạo cho ước lượng kênh trong hệ thống thông tin|
-|-----------------|
-
-
-| Mạng nơ-ron cho vật lý nhiều hạt lượng tử|
-|-----------------|
-
-|Mạng nơ-ron đồ thị và tính dễ bị tổn thương của chúng trong các ứng dụng thực tế|
-|-----------------|
-
+* Mạng nơ-ron đồ thị và tính dễ bị tổn thương của chúng trong các ứng dụng thực tế
