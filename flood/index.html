@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flood Forecasting - Central Vietnam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leaflet.js for map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #map {
+      height: 400px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .forecast {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #caf0f8;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flood Forecasting Dashboard</h1>
+    <p>Central Vietnam – Real-time Monitoring & Predictions</p>
+  </header>
+
+  <div id="map"></div>
+
+  <div class="content">
+    <div class="forecast">
+      <h2>📊 Today's Forecast (Hue)</h2>
+      <p><strong>Rainfall:</strong> 120 mm</p>
+      <p><strong>River Level:</strong> 3.2 m</p>
+      <p><strong>Flood Risk:</strong> High ⚠️</p>
+    </div>
+
+    <div class="forecast">
+      <h2>📈 5-Day Forecast Overview</h2>
+      <ul>
+        <li>Wed: Heavy Rain (110mm) 🌧️</li>
+        <li>Thu: Moderate Rain (70mm)</li>
+        <li>Fri: Showers (30mm)</li>
+        <li>Sat: Clear skies ☀️</li>
+        <li>Sun: Light rain (15mm)</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Data sourced from NOAA & VNDMA | Demo by Your Name</p>
+  </footer>
+
+  <!-- Leaflet.js -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Initialize map
+    const map = L.map('map').setView([16.4637, 107.5909], 8); // Hue, Vietnam
+
+    // Add tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add marker
+    L.marker([16.4637, 107.5909])
+      .addTo(map)
+      .bindPopup('<b>Hue City</b><br>Current river level: 3.2 m')
+      .openPopup();
+  </script>
+</body>
+</html>
