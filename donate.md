@@ -37,5 +37,5 @@ Nhằm đảm bảo tính minh bạch, sau khi nhận được sự ủng hộ, 
 | 17-03-2025 | Giấu Tên | 15,000 ₫ |
 | 17-03-2025 | Nhà xe Hưng Long | Hỗ trợ đi lại của học viên và trợ giảng từ các tỉnh Hà Nội vào Quảng Bình |
 | 17-03-2025 | Phan Tố Huyền | Trang, đồng phục cho khoá học SEAS |
-| 17-03-2025 | Cựu phụ huynh chuyên Lý THPT chuyên Võ Nguyên Giáp | Chuyến đi Phong Nha |
+| 17-03-2025 | Cựu phụ huynh chuyên Lý THPT chuyên Võ Nguyên Giáp | 15,815,000 |
 | 17-03-2025 | THPT chuyên Võ Nguyên Giáp | Miễn phí chi phí ký túc xá, vật chất giảng dạy |
