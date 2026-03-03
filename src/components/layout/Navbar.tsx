@@ -88,7 +88,7 @@ const Navbar = () => {
               <Link 
                 to="/" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Home
               </Link>
@@ -97,16 +97,16 @@ const Navbar = () => {
               <Link 
                 to="/about" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
-                Giới Thiệu
+                Về Chúng Tôi
               </Link>
             </li>
             <li className="flex items-stretch">
               <Link 
                 to="/programs" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Chương Trình
               </Link>
@@ -115,7 +115,7 @@ const Navbar = () => {
               <Link 
                 to="/team" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Đội Ngũ
               </Link>
@@ -124,7 +124,7 @@ const Navbar = () => {
               <Link 
                 to="/apply" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Đăng Ký Tham Gia
               </Link>
@@ -133,7 +133,7 @@ const Navbar = () => {
               <Link 
                 to="/donate" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Tài trợ
               </Link>
@@ -142,7 +142,7 @@ const Navbar = () => {
               <Link 
                 to="/contact" 
                 tabIndex={-1}
-                className="text-blue-400 no-underline text-base px-4 flex items-center hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
+                className="text-blue-400 no-underline text-base px-4 flex items-center hover:translate-x-1 hover:text-blue-500 hover:bg-blue-100 transition-all duration-300"
               >
                 Liên Hệ
               </Link>
