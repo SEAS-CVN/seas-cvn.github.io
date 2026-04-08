@@ -19,7 +19,12 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b bg-white/92 backdrop-blur-[18px]">
       <div className="container relative flex min-h-[92px] items-center justify-between gap-6">
-        <Link href="/home" aria-label="SEAS Home">
+        <Link
+          href="/home"
+          aria-label="SEAS Home"
+          className="header-fly-down"
+          style={{ animationDelay: "0ms" }}
+        >
           <Image
             src="/images/logo/SEAS_LOGO_Transparent.png"
             alt="SEAS"
@@ -47,12 +52,15 @@ export function SiteHeader() {
             open ? "flex" : "",
           ].join(" ")}
         >
-          {navigation.map((item) => (
+          {navigation.map((item, index) => (
             <Link
               key={item.label}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="relative w-full py-2 font-lexend font-semibold text-black after:absolute after:right-0 after:bottom-0 after:h-[3px] after:w-full after:origin-left after:scale-x-0 after:rounded-full after:bg-[linear-gradient(90deg,#1397cb,#56c6f2)] after:transition-transform after:duration-200 hover:after:scale-x-100 lg:w-auto lg:py-2"
+              className="header-fly-down relative w-full py-2 font-lexend font-semibold text-black after:absolute after:right-0 after:bottom-0 after:h-[3px] after:w-full after:origin-left after:scale-x-0 after:rounded-full after:bg-[linear-gradient(90deg,#1397cb,#56c6f2)] after:transition-transform after:duration-200 hover:after:scale-x-100 lg:w-auto lg:py-2"
+              style={{
+                animationDelay: `${120 + index * 70}ms`,
+              }}
             >
               {item.label}
             </Link>

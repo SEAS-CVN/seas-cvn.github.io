@@ -7,6 +7,7 @@ import {
   HiChevronDown,
   HiChevronUp,
 } from "react-icons/hi";
+import { PillButton } from "@/components/shared/pill-button";
 import { ComingSoonCard } from "../shared/coming-soon-card";
 
 type PreviewSlot = {
@@ -280,23 +281,16 @@ export function ProgramSchedulePreviewSection() {
               const isActive = year === activeYear;
 
               return (
-                <button
+                <PillButton
                   key={year}
-                  type="button"
                   onClick={() => {
                     setActiveYear(year);
                     setActiveWeekIndex(0);
                     setActiveDayIndex(0);
                   }}
-                  className={[
-                    "min-w-[126px] rounded-full border-2 px-6 py-3 font-lexend text-[1rem] font-semibold transition-colors duration-200",
-                    isActive
-                      ? "border-[#2D8BBA] bg-[#2D8BBA] text-white"
-                      : "border-[#2D8BBA] bg-white text-[#2D8BBA] hover:bg-[#edf8fd]",
-                  ].join(" ")}
-                >
-                  {year}
-                </button>
+                  isActive={isActive}
+                  label={year}
+                />
               );
             })}
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { PillButton } from "@/components/shared/pill-button";
 
 const programInfo = {
   "SEAS 2026": [
@@ -39,19 +40,13 @@ export function AboutProgramInfoSection() {
               const isActive = year === activeYear;
 
               return (
-                <button
+                <PillButton
                   key={year}
-                  type="button"
                   onClick={() => setActiveYear(year)}
-                  className={[
-                    "min-w-[128px] rounded-full border-2 px-6 py-3 font-lexend text-[1rem] font-semibold transition-colors duration-200",
-                    isActive
-                      ? "border-[#2D8BBA] bg-[#2D8BBA] text-white"
-                      : "border-[#2D8BBA] bg-white text-[#2D8BBA] hover:bg-[#edf8fd]",
-                  ].join(" ")}
-                >
-                  {year}
-                </button>
+                  isActive={isActive}
+                  label={year}
+                  className="min-w-[128px]"
+                />
               );
             })}
           </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function SponsorDonationSection() {
   return (
-    <section className="bg-[url('/images/layout/founder-bg.png')] bg-cover bg-center bg-no-repeat py-12 md:py-16">
+    <section className="bg-[url('/images/layout/donation-bg.png')] bg-cover bg-center bg-no-repeat py-12 md:py-25">
       <div className="container flex justify-center">
         <article className="grid w-full max-w-[980px] gap-8 rounded-[30px] bg-white px-8 py-8 shadow-[0_24px_56px_rgba(150,199,224,0.18)] md:px-10 md:py-10 lg:grid-cols-[1fr_280px] lg:items-center">
           <div className="flex flex-col gap-8">

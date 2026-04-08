@@ -2,7 +2,7 @@ import Image from "next/image";
 import { PillArrowButton } from "@/components/shared/pill-arrow-button";
 
 const stats = [
-  { value: "350+", label: "Số đơn đăng ký trên cả nước", featured: true },
+  { value: "350+", label: "Số đơn đăng ký trên cả nước" },
   { value: "43", label: "Học sinh đã tham gia" },
   { value: "8", label: "Dự án học thuật của học sinh được hoàn thành" },
   {
@@ -41,22 +41,12 @@ export function HomeLookBackSection() {
               {stats.map((item) => (
                 <article
                   key={item.label}
-                  className={[
-                    "min-h-[126px] rounded-[22px] bg-white px-4 py-4 shadow-[0_14px_32px_rgba(150,199,224,0.2)] md:min-h-0 md:rounded-[24px] md:px-6 md:py-5 md:shadow-[0_16px_38px_rgba(150,199,224,0.2)]",
-                    item.featured
-                      ? "border-2 border-[#7fc8ef]"
-                      : "border border-[rgba(180,216,234,0.2)]",
-                  ].join(" ")}
+                  className="cursor-pointer min-h-[126px] rounded-[22px] bg-white px-4 py-4 shadow-[0_14px_32px_rgba(150,199,224,0.2)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.02] hover:border-[#7fc8ef] hover:shadow-[0_18px_42px_rgba(45,139,186,0.18)] md:min-h-0 md:rounded-[24px] md:px-6 md:py-5 md:shadow-[0_16px_38px_rgba(150,199,224,0.2)] text-[#4D5761] hover:text-[#2D8BBA] border-2 border-[rgba(180,216,234,0.4)]"
                 >
                   <strong className="block font-space-grotesk text-[2.55rem] font-bold leading-none tracking-[-0.05em] text-[#2D8BBA] md:text-[3rem]">
                     {item.value}
                   </strong>
-                  <p
-                    className={[
-                      "mt-2 font-lexend text-[0.90rem] leading-[1.42] md:mt-2.5 md:text-[1rem] md:leading-[1.5]",
-                      item.featured ? "text-[#2D8BBA]" : "text-[#4D5761]",
-                    ].join(" ")}
-                  >
+                  <p className="mt-2 font-lexend text-[0.90rem] leading-[1.42] md:mt-2.5 md:text-[1rem] md:leading-[1.5]">
                     {item.label}
                   </p>
                 </article>
@@ -64,11 +54,11 @@ export function HomeLookBackSection() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[500px] pt-4 md:pt-6 lg:max-w-[430px] lg:justify-self-end lg:pt-10">
-            <div className="pointer-events-none absolute left-0 top-5 h-[84%] w-full -rotate-[-7deg] rounded-[28px] bg-[#cfeefc] md:-left-2 md:top-10 md:h-[78%] md:w-[102%] md:rounded-[34px]" />
+          <div className="group relative mx-auto w-full max-w-[500px] pt-4 md:pt-6 lg:max-w-[430px] lg:justify-self-end lg:pt-10">
+            <div className="pointer-events-none absolute left-0 top-5 h-[84%] w-full -rotate-[-7deg] rounded-[28px] bg-[#cfeefc] transition-all duration-300 ease-out group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:rotate-[-8deg] group-hover:scale-[1.01] md:-left-2 md:top-10 md:h-[78%] md:w-[102%] md:rounded-[34px]" />
 
-            <article className="relative overflow-hidden rounded-[28px] bg-white shadow-[0_22px_46px_rgba(150,199,224,0.26)] md:rounded-[30px] md:shadow-[0_26px_56px_rgba(150,199,224,0.3)]">
-              <div className="overflow-hidden rounded-t-[28px] p-1.5 pb-0 md:rounded-t-[30px]">
+            <article className="relative overflow-hidden rounded-[28px] bg-white shadow-[0_22px_46px_rgba(150,199,224,0.26)] transition-all duration-300 ease-out group-hover:-translate-y-1.5 group-hover:scale-[1.02] group-hover:shadow-[0_28px_60px_rgba(45,139,186,0.24)] md:rounded-[30px] md:shadow-[0_26px_56px_rgba(150,199,224,0.3)]">
+              <div className="cursor-pointer overflow-hidden rounded-t-[28px] p-1.5 pb-0 md:rounded-t-[30px]">
                 <Image
                   src="/images/layout/SEAS 2025 Activities.png"
                   alt="SEAS 2025 Activities"

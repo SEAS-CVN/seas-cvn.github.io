@@ -40,7 +40,7 @@ export function HomeExploreSection() {
           {exploreCards.map((card) => (
             <article
               key={card.title}
-              className="group flex h-full flex-col overflow-hidden rounded-[30px] border border-[rgba(180,216,234,0.26)] bg-white shadow-[0_22px_54px_rgba(150,199,224,0.22)] transition-all duration-200 hover:border-[#2D8BBA] hover:shadow-[0_24px_58px_rgba(45,139,186,0.24)]"
+              className="cursor-pointer group flex h-full flex-col overflow-hidden rounded-[30px] border border-[rgba(180,216,234,0.26)] bg-white shadow-[0_22px_54px_rgba(150,199,224,0.22)] transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.02] hover:border-[#2D8BBA] hover:shadow-[0_28px_60px_rgba(45,139,186,0.23)]"
             >
               <div className="overflow-hidden rounded-t-[30px] p-2 pb-0">
                 <Image
