@@ -1,0 +1,70 @@
+import { HiOutlineMail } from "react-icons/hi";
+import { RiFacebookFill } from "react-icons/ri";
+
+const contactItems = [
+  {
+    title: "Email liên hệ",
+    value: "seas.cvn@gmail.com",
+    href: "mailto:seas.cvn@gmail.com",
+    icon: HiOutlineMail,
+  },
+  {
+    title: "Cộng đồng Facebook",
+    value: "facebook.com/seas.cvn",
+    href: "https://facebook.com/seas.cvn",
+    icon: RiFacebookFill,
+  },
+];
+
+export function ContactSection() {
+  return (
+    <section className="py-10 pb-16 md:py-14 md:pb-20">
+      <div className="container">
+        <div className="grid gap-8 rounded-[28px] bg-white px-6 py-7 shadow-[0_20px_48px_rgba(150,199,224,0.14)] md:px-10 md:py-9 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-10">
+          <div>
+            <h1 className="font-space-grotesk text-[2.8rem] font-bold uppercase leading-[0.96] tracking-[-0.05em] text-[#04536E] md:text-6xl">
+              Liên hệ
+            </h1>
+          </div>
+
+          <div className="border-l-4 border-[#2D8BBA] pl-5 md:pl-6">
+            <p className="max-w-[620px] font-lexend text-[1rem] leading-[1.9] text-[#4D5761] md:text-[1.06rem]">
+              Nếu bạn có bất kỳ câu hỏi nào về SEAS, vui lòng liên hệ với chúng
+              tôi qua email hoặc nhắn tin trực tiếp trên trang Facebook.
+            </p>
+
+            <div className="mt-7 space-y-7">
+              {contactItems.map((item) => {
+                const Icon = item.icon;
+
+                return (
+                  <a
+                    key={item.title}
+                    href={item.href}
+                    target={item.href.startsWith("http") ? "_blank" : undefined}
+                    rel={
+                      item.href.startsWith("http") ? "noreferrer" : undefined
+                    }
+                    className="flex items-center gap-4"
+                  >
+                    <span className="grid h-[40px] w-[40px] place-items-center rounded-full bg-[#2D8BBA] text-[1.2rem] text-white md:h-[44px] md:w-[44px] md:text-[1.3rem]">
+                      <Icon />
+                    </span>
+                    <span className="block">
+                      <span className="block font-space-grotesk text-[1.05rem] font-bold text-[#04536E] md:text-[1.15rem]">
+                        {item.title}
+                      </span>
+                      <span className="mt-1 block font-lexend text-[0.98rem] text-[#4D5761] underline decoration-[#2D8BBA] underline-offset-4 md:text-[1rem]">
+                        {item.value}
+                      </span>
+                    </span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

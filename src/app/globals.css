@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --page-shadow: 0 24px 60px rgba(1, 18, 29, 0.32);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(79, 183, 231, 0.12), transparent 30%),
+    linear-gradient(180deg, #eef8fc 0 260px, #020202 260px 100%);
+  color: #f5fbff;
+  font-family:
+    var(--font-space-grotesk), "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+}
+
+.font-lexend {
+  font-family: var(--font-lexend), "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+}
+
+.font-space-grotesk {
+  font-family:
+    var(--font-space-grotesk), "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+a {
+  transition:
+    transform 180ms ease,
+    opacity 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+button:hover,
+a:hover {
+  transform: translateY(-1px);
+}
+
+.container {
+  width: min(1200px, calc(100vw - 32px));
+  margin: 0 auto;
+}
+
+@keyframes review-marquee-track {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 24px));
+  }
+}
+
+.review-marquee-shell:hover .review-marquee-track {
+  animation-play-state: paused;
+}
+
+.review-marquee-track {
+  animation: review-marquee-track 36s linear infinite;
+  will-change: transform;
+}

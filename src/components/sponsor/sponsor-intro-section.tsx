@@ -1,0 +1,24 @@
+export function SponsorIntroSection() {
+  return (
+    <section className="py-10 md:py-14">
+      <div className="container">
+        <div className="grid gap-8 rounded-[28px] bg-white px-6 py-7 shadow-[0_20px_48px_rgba(150,199,224,0.14)] md:px-10 md:py-9 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-10">
+          <div>
+            <h1 className="font-space-grotesk text-[2.8rem] font-bold uppercase leading-[0.96] tracking-[-0.05em] text-[#04536E] md:text-6xl">
+              Tài trợ
+            </h1>
+          </div>
+
+          <div className="border-l-4 border-[#2D8BBA] pl-5 md:pl-6">
+            <p className="font-lexend text-[1rem] leading-[1.9] text-[#4D5761] md:text-[1.06rem]">
+              Chúng tôi kêu gọi đối tác tài trợ để nâng cao chương trình SEAS,
+              mở rộng cơ hội học tập cho học sinh THPT miền Trung. Sự đồng hành
+              của quý vị sẽ góp phần phát triển khoa học công nghệ tiên tiến và
+              kiến tạo tương lai cho thế hệ trẻ Việt Nam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
