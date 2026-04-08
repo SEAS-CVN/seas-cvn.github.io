@@ -142,7 +142,7 @@ export function HomeHeroSection() {
               className="hero-rise-up hero-countdown-card rounded-[22px] bg-white px-3 py-5 text-center font-space-grotesk shadow-[0_4px_30px_rgba(45,139,186,0.18)] [animation-delay:calc(560ms+var(--item-delay))]"
               style={{ ["--item-delay" as string]: `${index * 90}ms` }}
             >
-              <strong className="block text-[3.25rem] leading-none font-bold text-[#7CEFF1] [text-shadow:-1.4px_0_0_#27597A,1.4px_0_0_#27597A,0_-1.4px_0_#27597A,0_1.4px_0_#27597A]">
+              <strong className="block text-[3.25rem] leading-none font-bold text-[#2d8bba]">
                 {item.value}
               </strong>
               <span className="mt-2 block text-[1.05rem] font-bold text-[#575757]">
