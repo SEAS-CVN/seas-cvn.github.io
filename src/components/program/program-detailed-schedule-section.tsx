@@ -35,7 +35,7 @@ const detailedSchedules: Record<"SEAS 2025" | "SEAS 2026", ScheduleTable[]> = {
   "SEAS 2025": [
     {
       title: "Lich trinh Tuan 1",
-      headers: ["Thoi gian", "Thu 2\n21/7", "Thu 3\n22/7", "Thu 4\n23/7", "Thu 5\n24/7", "Thu 6\n25/7", "Thu 7\n26/7"],
+      headers: ["Thoi gian", "Thu 2\n20/7", "Thu 3\n21/7", "Thu 4\n22/7", "Thu 5\n23/7", "Thu 6\n24/7", "Thu 7\n25/7"],
       rows: [
         {
           time: "8:00 - 9:00",
@@ -133,7 +133,7 @@ const detailedSchedules: Record<"SEAS 2025" | "SEAS 2026", ScheduleTable[]> = {
     },
     {
       title: "Lich trinh Tuan 2",
-      headers: ["Thoi gian", "Thu 2\n28/7", "Thu 3\n29/7", "Thu 4\n30/7", "Thu 5\n31/7", "Thu 6\n1/8"],
+      headers: ["Thoi gian", "Thu 2\n27/7", "Thu 3\n28/7", "Thu 4\n29/7", "Thu 5\n30/7", "Thu 6\n31/7"],
       rows: [
         {
           time: "8:00 - 9:00",

@@ -159,6 +159,29 @@ export const staffMembers2025: StaffMember[] = [
     group: "member",
   },
   {
+    slug: "cao-xuan-hai",
+    name: "Cao Xu?n H?i",
+    role: "Ban t? ch?c t?i ??a ph??ng",
+    bio: "Th?y gi?o t?i Tr??ng Chuy?n V? Nguy?n Gi?p",
+    image: "/images/team/2025/cao-xuan-hai.png",
+    profileSummary:
+      "??y l? ?o?n gi?i thi?u t?m th?i v? th?nh vi?n SEAS. B?n c? th? c?p nh?t l?i b?ng th?ng tin chi ti?t v? g?c nh?n ri?ng c?a nh?n s? n?y.",
+    highlights: [
+      "Placeholder th?ng tin v? kinh nghi?m gi?o d?c, ?i?u ph?i v? k?t n?i t?i ??a ph??ng.",
+      "Placeholder th?ng tin v? ??ng g?p cho h?c vi?n v? ph?t tri?n ch??ng tr?nh.",
+      "Placeholder th?ng tin v? c?c ho?t ??ng, s?ng ki?n ho?c vai tr? h? tr? ?? th?c hi?n.",
+      "Placeholder th?ng tin v? c?c c?t m?c v? th?nh t?ch li?n quan.",
+    ],
+    quote:
+      "Placeholder quote: m?t chia s? ng?n v? gi?o d?c, s? ??ng h?nh v? c? h?i d?nh cho h?c sinh.",
+    links: [
+      { label: "LinkedIn", href: "Th?m link LinkedIn t?i ??y" },
+      { label: "GitHub", href: "Th?m link GitHub t?i ??y" },
+      { label: "Website", href: "Th?m website c? nh?n t?i ??y" },
+    ],
+    group: "member",
+  },
+  {
     slug: "vu-phan-khanh",
     name: "Vu Phan Khanh",
     role: "Trợ Giảng (Teaching Assistant)",
